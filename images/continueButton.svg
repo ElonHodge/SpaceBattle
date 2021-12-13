@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="138.022" height="74.622" viewBox="0, 0, 238.022, 74.622">
+  <defs>
+    <linearGradient id="Gradient_1" gradientUnits="userSpaceOnUse" x1="213.34" y1="478.578" x2="449.363" y2="478.578">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#38C400"/>
+    </linearGradient>
+  </defs>
+  <g id="Button_options_" transform="translate(-211.84, -440.766)">
+    <g>
+      <path d="M226.34,442.266 L436.363,442.266 C443.542,442.266 449.363,448.087 449.363,455.266 L449.363,501.889 C449.363,509.068 443.542,514.889 436.363,514.889 L226.34,514.889 C219.161,514.889 213.34,509.068 213.34,501.889 L213.34,455.266 C213.34,448.087 219.161,442.266 226.34,442.266 z" fill="url(#Gradient_1)"/>
+      <path d="M226.34,442.266 L436.363,442.266 C443.542,442.266 449.363,448.087 449.363,455.266 L449.363,501.889 C449.363,509.068 443.542,514.889 436.363,514.889 L226.34,514.889 C219.161,514.889 213.34,509.068 213.34,501.889 L213.34,455.266 C213.34,448.087 219.161,442.266 226.34,442.266 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 330.852, 478.078)">
+      <tspan x="-107.256" y="8.689" font-family="Phosphate-Inline" font-size="48" fill="#000000">continue</tspan>
+    </text>
+  </g>
+</svg>

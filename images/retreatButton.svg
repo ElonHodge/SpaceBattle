@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="138.022" height="74.622" viewBox="0, 0, 238.022, 74.622">
+  <defs>
+    <linearGradient id="Gradient_1" gradientUnits="userSpaceOnUse" x1="591.491" y1="475.317" x2="836.904" y2="475.317">
+      <stop offset="0" stop-color="#E12E00"/>
+      <stop offset="1" stop-color="#FF8626"/>
+    </linearGradient>
+  </defs>
+  <g id="Button_options_" transform="translate(-581.635, -440.766)">
+    <g>
+      <path d="M596.135,442.266 L806.157,442.266 C813.337,442.266 819.157,448.087 819.157,455.266 L819.157,501.889 C819.157,509.068 813.337,514.889 806.157,514.889 L596.135,514.889 C588.955,514.889 583.135,509.068 583.135,501.889 L583.135,455.266 C583.135,448.087 588.955,442.266 596.135,442.266 z" fill="url(#Gradient_1)"/>
+      <path d="M596.135,442.266 L806.157,442.266 C813.337,442.266 819.157,448.087 819.157,455.266 L819.157,501.889 C819.157,509.068 813.337,514.889 806.157,514.889 L596.135,514.889 C588.955,514.889 583.135,509.068 583.135,501.889 L583.135,455.266 C583.135,448.087 588.955,442.266 596.135,442.266 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 700.646, 478.078)">
+      <tspan x="-91.1" y="10.689" font-family="Phosphate-Inline" font-size="50" fill="#000000">Retreat</tspan>
+    </text>
+  </g>
+</svg>

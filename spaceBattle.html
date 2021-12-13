@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Space Battle</title>
+    <link rel="stylesheet" href="style/spaceBattle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+
+
+<body  style="background-image: url(images/backGround.jpg)" >
+<div id="gameCanvas" class=" position-fixed">
+    <div id="runningMode" class="d-flex d-fixed flex-row mt-3 justify-content-between">
+        <div style="width: 200px" class="hull">
+            <div id="playerHullBar"></div>
+        </div>
+        <div>
+            <p id="rounds"></p>
+        </div>
+        <div style="width:200px" class="hull">
+            <div id="alienHullBar"></div>
+        </div>
+
+    </div>
+
+    <div id="mainScreen">
+        <h1>Space Battle</h1>
+        <div class=" d-flex container justify-content-center mt-4">
+            <img src="images/startButton.svg" onclick="startGame()" alt="">
+        </div>
+    </div>
+
+    <div id="ships" class="d-flex  d-fixed justify-content-between ">
+        <img class="position-absolute" id="missile" src="images/missile.png" width="40px" height="40px" alt="missile">
+        <img class="position-absolute" id="missileEnemy" src="images/enemyBlast.png" width="40px" height="40px"
+             alt="missile">
+        <img id="playerShip" src="images/playerShip.png" height="100px" width="100px" alt="spaceship">
+        <img id="alienShip" src="images/sp2.png" height="100px" width="100px" alt="alien spaceship ">
+    </div>
+
+    <div id="attackButton" onclick="playerAttack(); setTimeout(alienAttack,2000)"
+         class="d-flex flex-row justify-content-around ">
+        <img src="images/attackButton.svg" alt="button with text attack">
+    </div>
+
+    <div id="optionsButtons" class="d-flex flex-row justify-content-around ">
+        <img src="images/continueButton.svg" onclick="nextRound();alienShipChange()" alt="button with text continue">
+        <img src="images/retreatButton.svg" onclick="gameOver()" alt="button with text retreat">
+    </div>
+    <audio id="explosionAudio" src="media/explosionSoundEffect.m4a" ></audio>
+    <audio id="playerMissileAudio" src="media/missileSoundEffect.m4a" ></audio>
+    <audio id="alienMissileAudio" src="media/plasmaSoundEffect.m4a" ></audio>
+    <audio id="playerDamageAudio" src="media/playerDamageAudio.m4a" ></audio>
+    <audio id="alienDamageAudio" src="media/alienDamageAudio.m4a" ></audio>
+
+</div>
+
+</body>
+
+<script src="script/spaceBattle.js"></script>
+</html>
+
+

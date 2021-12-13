@@ -1,0 +1,84 @@
+h1 {
+    text-align: center;
+}
+
+p, h1 {
+    font-family: 'Bungee Inline', cursive;
+    font-size: xx-large;
+    color: white;
+}
+
+#playerHullBar, #alienHullBar {
+    font-family: 'Bungee Inline', cursive;
+    font-size: larger;
+    color: white;
+}
+
+#runningMode, #optionsButtons, #ships, #attackButton {
+    visibility: hidden;
+}
+
+
+#playerHullBar {
+    width: 200px;
+    height: 5px;
+    background-color: green;
+    border-radius: 3px;
+}
+
+#alienHullBar {
+    width: 200px;
+    height: 5px;
+    background-color: green;
+    border-radius: 3px;
+}
+#missile{
+    visibility:hidden;
+    margin-top: 40px;
+    margin-left:30px ;
+}
+#missileEnemy{
+    visibility:hidden;
+    margin-top: 50px;
+    margin-left:580px ;
+}
+#gameCanvas {
+    width: 700px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.animationBox{
+    width: 67px;
+    height: 86px;
+    animation: animate 1.5s steps(8) 1;
+    animation-fill-mode: forwards;
+    background-image: url("../images/ex.svg");
+}
+@keyframes animate {
+    to{
+        background-position:-134.5px;
+    }
+    to{
+        background-position:-201.75px;
+    }
+    to{
+        background-position:-269px;
+    }
+    to{
+        background-position:-336.25px;
+    }
+    to{
+        background-position:-403.5px;
+    }
+    to{
+        background-position:-470.75px;
+    }
+    to{
+        background-position:-538px;
+    }
+    to{
+        visibility: hidden;
+    }
+}
