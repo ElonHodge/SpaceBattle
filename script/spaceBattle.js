@@ -113,8 +113,8 @@ function alienAttack() {
 
     // alien ship not destroyed
     if (alienShips[roundCounter].getHull() > 0) {
-        // alien attacks
         if (Math.random() < alienShips[roundCounter].getAccuracy()) {
+            // alien attacks
             playerHull -= alienShips[roundCounter].getFirePower();
             alienHitAnimation();
             alienMissileAudio();
@@ -136,6 +136,7 @@ function alienAttack() {
         }
 
     } else {
+        // You destroyed last ship
         if (roundCounter === alienShips.length - 1) {
             roundCounter++;
             youWin()
