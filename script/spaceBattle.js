@@ -46,7 +46,6 @@ let playerHullBoarder = document.getElementsByClassName("hull")[0].style;
 let missile = document.getElementById("missile");
 let missileEnemy = document.getElementById("missileEnemy");
 let alienShip = document.getElementById("alienShip");
-let audio = document.getElementById("myAudio");
 
 createAlienShips(alienShips);
 
